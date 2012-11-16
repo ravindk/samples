@@ -11,7 +11,7 @@ public class Calc {
     }
     
     public static double subtract (double x, double y) {
-        return x + y;
+        return x - y;
         }
     
     public static double multiply (double x, double y) {
@@ -19,6 +19,6 @@ public class Calc {
         }
     
     public static double divide (double x, double y) {
-        return x * y;
+        return x / y;
         }
 }
