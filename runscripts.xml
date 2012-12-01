@@ -3,7 +3,7 @@
         simple example build file
     </description>
   <!-- set global properties for this build -->
-  <property name="src" location="/Users/ravindrakaranam/work/scripts"/>
+  <property name="src" location="."/>
   
   <target name="runscript1">
   	<exec executable="/bin/bash">
