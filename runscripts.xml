@@ -1,0 +1,27 @@
+<project name="antcall" default="dist" basedir=".">
+    <description>
+        simple example build file
+    </description>
+  <!-- set global properties for this build -->
+  <property name="src" location="/Users/ravindrakaranam/work/scripts"/>
+  
+  <target name="runscript1">
+  	<exec executable="/bin/bash">
+			<arg value="${src}/script1.sh"/>
+	</exec> 
+  </target>
+  
+  <target name="runscript2">
+  	<exec executable="/bin/bash">
+			<arg value="${src}/script2.sh"/>
+	</exec> 
+  </target>
+  
+  <target name="runscript3">
+  	<exec executable="/bin/bash">
+			<arg value="${src}/script3.sh"/>
+	</exec> 
+  </target>
+  
+</project>
+
