@@ -4,10 +4,12 @@
     </description>
   <!-- set global properties for this build -->
   <property name="src" location="."/>
+  <property name="yourname"/>	
   
   <target name="runscript1">
   	<exec executable="/bin/bash">
 			<arg value="${src}/script1.sh"/>
+  		    <arg value="${yourname}"/>
 	</exec> 
   </target>
   
