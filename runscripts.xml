@@ -22,6 +22,10 @@
 			<arg value="${src}/script3.sh"/>
 	</exec> 
   </target>
-  
+	<target name="runscript4">
+	  	<exec executable="/bin/bash">
+				<arg value="${src}/script4.sh"/>
+		</exec> 
+	  </target>
 </project>
 
