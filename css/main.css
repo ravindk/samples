@@ -57,8 +57,8 @@ tr td{
 	border-bottom:1px inset #555;
 }
 legend {
-    font-size: 16px!important;
-    font-weight: normal!important;
+    font-size: 16px  !important ;
+    font-weight: normal  !important ;
 }
 .signUp-main{
 	float: right;
@@ -82,17 +82,17 @@ legend {
 	color:#555;
 }
 .signUp-bottom{
-	border-bottom:none!important;
+	border-bottom:none  !important ;
 }
 .font-family{
 	font-family:French Script MT;
 }
 .margin-top{
-	margin-top:10px!important;
+	margin-top:10px !important ;
 }
 .text-table-center{
-	text-align:center!important;
-	font-size:18px!important;
+	text-align:center !important ;
+	font-size:18px !important ;
 }
 .licenseField{
 	float:right;
@@ -100,11 +100,11 @@ legend {
 	width:68%;
 }
 .licenseField a{
-	color:#fff!important;
+	color:#fff !important ;
 }
 .licenseField a:hover{
-	text-decoration:none!important;
-	color:#000!important;
+	text-decoration:none !important ;
+	color:#000 !important ;
 }
 .licenseCol{ 
 	float:left;
@@ -134,7 +134,7 @@ legend {
 	float:right;
 }
 .text-padding p{
-	font-size:15px!important;
+	font-size:15px !important ;
 	font-family:Times New Roman;
 }
 .orange-color{
@@ -144,7 +144,7 @@ legend {
 	text-decoration:underline;
 }
 .margin{
-	margin:40px!important;
+	margin:40px !important ;
 }
 .font-size-big{
 	font-size:16px;
@@ -172,7 +172,7 @@ h2 span {
     margin-right: 5px;
 }
 .navBack{
-	color:#000!important;
+	color:#000 !important ;
 	background:#fff;
 	border-radius:4px 4px 4px 4px;
 	padding:5px;
@@ -182,7 +182,7 @@ h2 span {
     background: none repeat scroll 0 0 #00B3FF;
 }
 #header_main {
-    min-height: 58px !important;
+    min-height: 58px  !important ;
 }
 #container{
 	background: url("../images/bg-new2.png") repeat scroll 0 0 transparent;
@@ -290,7 +290,7 @@ ul.left{
 	list-style-type:none;
 }
 .left{
-	text-align:left !important;
+	text-align:left  !important ;
 	margin:0;
 	padding:0;
 	font-size: 20px;
@@ -357,7 +357,7 @@ ul.left{
 .head-menu li a:hover{
 	/*font-weight:bold;
 	cursor:pointer;*/
-	color:#000!important;
+	color:#000 !important ;
 	background:#fff;
 	border-radius:4px 4px 4px 4px;
 	padding:5px;
@@ -380,7 +380,7 @@ ul.left{
 	margin:20px 20px 30px 0;
 }
 .btn-right{
-	float:right!important;
+	float:right !important ;
 }
 .bold{
 	font-weight:bold;
@@ -425,7 +425,7 @@ ul.left{
 }
 #homeInfo{
     text-align: center;
-	margin:40px auto !important;
+	margin:40px auto  !important ;
 }
 .button-width{
 	width:50px;
@@ -455,9 +455,9 @@ a.logBtn,a.bigBtn{
     width: 475px;
 }
 .signUpCol1,.divText{
-	color: #444!important;
+	color: #444 !important ;
     font-size: 14px;
-    font-weight: normal !important;
+    font-weight: normal  !important ;
     width: 205px;
 }
 .signUpCol1{
@@ -694,8 +694,8 @@ a.logBtn,a.bigBtn{
 	color:#fff;
 }
 .video{
-	width:370px !important;
-	height:210px !important;
+	width:370px  !important ;
+	height:210px  !important ;
 	border: 4px double gray;
 	border-radius: 5px 5px 5px 5px;
 	box-shadow: 2px 2px 2px black;
@@ -784,8 +784,8 @@ a.logBtn,a.bigBtn{
 		margin-top: 0;
 	}
 	.video {
-		height: 150px !important;
-		width: 250px !important;
+		height: 150px  !important ;
+		width: 250px  !important ;
 	}
 	.homeRow {
 		width: 300px;
@@ -823,7 +823,7 @@ a.logBtn,a.bigBtn{
 		width:99%;
 	}
 	.display-none{
-		display:none!important;
+		display:none !important ;
 	}
 	#logo,.main_login,.main_login .row,.main_login .col1,.main_login .row1, .row2,#baner_left,#info-right,#search,.android1, .android2,.download,.download a,.homeRow,.video,.homeRow input,.rgtInfo, .rgtInfoCol1, .rgtInfoCol2, .rgtInfoCol3,#info-center,#footer-social-icon{
 		float: none;
@@ -842,13 +842,13 @@ a.logBtn,a.bigBtn{
 		width:50%;
 	}
 	.left{
-		text-align:center !important;
+		text-align:center  !important ;
 	}
 	.left li,a.button,.download a,.homeRow input,#bgGray,.head-menu li a,#baner_left p,.main_login .row2 a,.main_login input{
 		font-size:20px;
 	}
 	.main_login .col2{
-		margin:10px auto !important;
+		margin:10px auto  !important ;
 		float: none;
 		height: 40px;
 	}
@@ -911,8 +911,8 @@ a.logBtn,a.bigBtn{
 		margin: auto;
 	}
 	.video{
-		width:auto !important;
-		height:200px !important;
+		width:auto  !important ;
+		height:200px  !important ;
 		display: block;
 	} 
 	#baner_left p{
