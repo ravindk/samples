@@ -1,0 +1,425 @@
+ /**
+ * Common css.
+ *
+ * Eduspace Theme Responsive for all device is stylish, customizable, simple, and readable.
+ *
+ * @category  GTPL
+ * @author    Harsha Dhingra <harshadhingra26@gmail.com>
+ * @copyright 2013 Eduspace
+ * @license   http://eduspace.in/license Eduspace License
+ * @version   1.0
+ * @link      http://eduspace.in
+ * @since     File available since Release 1.5.0
+ * @package   protected.views.home
+ */
+	
+html, body {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+p{
+	text-align:justify;
+}
+img { border: none; }
+a {
+	outline:none;
+	text-decoration:none;
+}
+input{
+	outline:none;
+}
+.clear { clear: both; }
+.green{
+	color:#359B0D !important;
+}
+.loading{
+	color:#00B3FF !important;
+}
+.imgSize{
+	max-width:150px;
+	max-height:150px;
+}
+/*------------------Header---------------*/
+legend{
+	font-weight:bold;
+	font-size:20px;
+}
+ #container{
+	min-height: 100%;
+    position: relative;
+}
+ #header{
+	padding: 0;
+}
+#header, #content {
+    min-width: 1100px;
+    width: 100%;
+}
+/*#content {
+    padding-bottom:80px;
+}*/
+#header_main,#homeInfo{ 
+	float: none;
+    height: auto;
+    margin: auto;
+}
+#header_main,#content_main ,#footer_main,.head-menu,#menuWrap {
+	width: 90%;
+	float:none;
+	margin:auto;
+}
+#menuWrap {
+	float:none;
+	margin:auto;
+}
+#profileLeftContent{
+	float:left;
+	width:750px;
+	padding:50px  0;
+	position: relative;
+} 
+/*.button {
+    color: #fff;
+    font-size: 14px;
+    padding: 8px;
+	float:none;
+    text-decoration: none;
+	font-size:14px; 
+	padding:8px; 
+	text-decoration:none;
+	border-radius: 8px;
+	cursor: pointer;
+}*/
+.removeCustom {
+	float:left!important;
+}
+/*--------------------Content-------------*/
+#content_main {
+    float: none;
+    margin: auto;
+	padding: 10px 0;
+}
+.file_input_div
+{
+	position: relative;  
+	overflow: hidden;
+}
+.file_input_text 
+{
+	color: #3B5998;
+    font-weight: bold;
+	font-size: 18px;
+    margin: 33px 0 0 50px;
+    position: absolute;
+    width: 140px;
+}
+.file_input_hidden
+{
+	font-size: 100px !important; 
+	cursor:pointer;
+	position: relative; 
+	text-decoration:underline;
+	right: 0px; 
+	top: 25px; 
+	opacity: 0; 
+	filter: alpha(opacity=0); 
+	-ms-filter: "alpha(opacity=0)";
+	-khtml-opacity: 0; 
+	-moz-opacity: 0; 
+}
+/*------------Form Creation----------*/
+.signUpRow{
+	float: left;
+    font-size: 14px;
+    margin-top:5px;
+    text-align: left;
+}
+.signUpCol1{
+	float: left;
+	font-weight:bold;
+}
+.signUpRow span{
+	color:red;
+}
+.signUpCol2{
+	float:left; 
+}
+.input-small
+{
+	width:100px!important;
+}
+.signUpCol2 input{
+    color: #999;
+    font-size: 14px;
+    height: 30px;
+    width: 250px;
+}
+.signUpCol2 select{
+    color:#666;
+    font-size: 14px;
+    min-height: 30px;
+    padding-top: 5px;
+	width:250px;
+	margin-top: 5px;
+}
+.signUpBtn{
+	float: none;
+    margin: 10px;
+    text-align: center;
+}
+#radio input{
+	float:left;
+	width:25px;
+	border:none;
+}
+#radio label{
+	float:left;
+}
+.centerRow {
+    float: none;
+    margin: auto;
+    width: 750px;
+}
+.centerRow p{
+	text-align:left;
+}
+.centerRow textarea{
+	max-width:685px;
+	width:685px;
+	resize: none;
+	padding:4px;
+}
+.centerRow #addSite{
+	width:510px;
+	padding:4px;
+	margin-top: 5px;
+}
+.centerRow #address{
+	width:200px;
+}
+.centerRow a{
+	text-decoration:none;
+	color:#3B5998;
+}
+.centerRow a:hover{
+	text-decoration:underline;
+}
+.centerCol{
+	width:700px;
+	float:none;
+}
+.centerCol1{
+	width:245px;
+	float:left;
+}
+.centerCol img{
+	width:100px;
+	height:72px;
+}
+#review{
+	margin-left:10px;
+}
+.profileCol{
+    float: left;
+    margin: 5px;
+    min-height: 165px;
+    width: 360px;
+	text-align:center;
+	color:#3B5998;
+	font-weight:bold;
+}
+.bottom{
+	margin-bottom:20px;
+}
+.inputSmallDiv{
+	width:99px!important;
+}
+.smallText{
+	text-align: center;
+	width: 50px;
+}
+/*---------For Validation------------*/
+div.errorColor,span.errorColor {
+    color:#C00;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+}
+div.errorColor{
+	display: none;
+}
+.i-btn{
+	font-size:18px;
+	vertical-align: middle;
+}
+.borderRed{
+	border:1px solid#C00 !important;
+}
+.hide1,.hide{
+	display:none !important;
+}
+/*------------------for placeholder------------------*/
+::-webkit-input-placeholder { color:#999; }
+:-moz-placeholder { color:#999; }
+:-ms-input-placeholder { color:#999; }
+.placeholder { color:#999; }
+/*------------For popUp css--------------*/
+.shadow {
+	background-color: #EBEBEB;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.6) inset;
+    cursor: default;
+    display: none;
+    left: 46%;
+    margin: -130px 0 0 -380px;
+    opacity: 0.95;
+    padding: 25px 25px 20px;
+    position: absolute;
+    text-align: left;
+    top: 32%;
+    width: 760px;
+    z-index: 1;
+}
+/*--------Footer------------*/
+#footer {
+    bottom: 0;
+    min-height: 25px;
+    left: 0;
+    position: absolute;
+	clear: both;
+}
+#footer_main p{
+	text-align:center;
+}
+#footer_main ul {
+    list-style: none outside none; 
+    margin: 0;
+	text-align: center;
+}
+#footer_main li {
+    display: inline;
+    margin-right: 5px;
+	margin-left: 5px;
+	font-size: 11px;
+}
+#footer_main li a,#footer_main div {
+	font-size: 11px;
+}
+#footer_main div {
+    float:right;
+	text-align:center;
+}
+/*--------------Mobile----------------*/
+@media only screen and (max-device-width: 480px;) {
+	body{
+		-webkit-text-size-adjust:none;
+    }
+	h1,h2,.Paragraph p{
+		font-size:20px;
+	}
+	#header, #content,#footer {
+		min-width: 0;
+		width: 100%;
+	}
+	.signUpRow,.signUpCol2{
+		width:100%;
+	}
+	#content_main,#header_main,#baner_left,#info-right,#footer_main,.head-menu,.homeRow,#search,.main_login,.main_login .col1,.bigBtn,#menuWrap,.signUpCol2 input,.signUpCol2 select{
+		width:90%;
+		float: none;
+		margin: auto;
+	}
+	#footer{
+		bottom:auto;
+		width:99%;
+	}
+	#footer_main li{
+		display:block;
+	}
+	#logo img{
+		margin:4px auto;
+	}
+	#header_main{
+		height: auto;
+	}
+	#footer_main,#footer_main div,#footer_main li,#footer_main li a{
+		float: none;
+		margin: auto;
+		text-align:center;
+		font-size:20px;
+	}
+	.inputSmallDiv{
+		float: left!important;
+		margin-left: 23px!important;
+	}
+	.smallText{
+		float: left;
+		margin-top: 12px;
+		text-align: center;
+		vertical-align: middle;
+		width: 50px;
+	}
+	.logo {
+		text-align: center;
+	}
+	.headDiv, #footer {
+		min-height: 45px;
+	}
+	.head-menu li {
+		display: list-item;
+		margin: 5px 0;
+	}
+	.head-menu li{
+		border-bottom:1px solid #fff;
+	}
+	h1,h2{
+		text-align:center;
+	}
+	.signUpRow {
+		text-align:center;
+		margin-top:5px;
+	}
+	.signUpCol1 {
+		float: none;
+		text-align: center;
+		width:auto;
+		margin-top:5px;
+	}
+	.signUpCol2,.signUpRow,#radio label,.signUpBtn {
+		margin:auto;
+		float:none;
+	}
+	.signUpBtn input{
+		float:none;
+		margin-top: 10px;
+	}
+	#radio input {
+		float: none;
+		vertical-align: middle;
+	}
+	.signUpCol2 {
+		margin-top:5px;
+	}
+	.centerRow {
+		width: 250px;
+	}
+	.centerCol {
+		width: 250px;
+	}
+	.centerRow textarea {
+		width: 250px;
+	}
+	.centerRow #addSite {
+		width: 250px;
+		font-size: 10px;
+	}
+	.profileCol {
+		width: 230px;
+	}
+	.file_input_text {
+		margin: 33px 0 0 55px;
+	}
+}
